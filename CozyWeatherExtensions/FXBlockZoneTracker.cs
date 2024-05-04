@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeatherExtensions
 {
     /// <summary>
-    /// Extension Methods for the <see cref="CozyWeather"/> class to manage FX Particle triggers,
+    /// Methods for the <see cref="CozyWeather"/> class to manage FX Particle triggers,
     /// particularly useful when loading/unloading scenes or runtime object instantiation.
     /// </summary>
     public static class FXBlockZoneTracker

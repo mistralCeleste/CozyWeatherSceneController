@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeatherExtensions
 {
-    public static class CozyModulesSceneManagementExtensions
+    public static class CozyModuleExtensions
     {
         /// <summary>
         /// Handles the scene when it loads.
@@ -14,6 +14,8 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeat
         /// via an extension method targeting a specific module
         /// and some 'magic' in the primary extension method
         /// <see cref="CozyModuleSceneHandler.HandleModuleOnSceneLoad"/>
+        /// and then create a handler for that modules OnSceneUnLoad method; for example:
+        /// <see cref="CozyReflectionsModuleExtensions.OnSceneLoad"/>.
         /// </remarks>
         /// <param name="this">
         /// The <see cref="CozyModule"/>.
@@ -42,6 +44,8 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeat
         /// via an extension method targeting a specific module
         /// and some 'magic' in the primary extension method
         /// <see cref="CozyModuleSceneHandler.HandleModuleOnSceneUnload"/>
+        /// and then create a handler for that modules OnSceneUnLoad method; for example:
+        /// <see cref="CozyReflectionsModuleExtensions.OnSceneUnLoad"/>.
         /// </remarks>
         /// <param name="this">
         /// The <see cref="CozyModule"/>.

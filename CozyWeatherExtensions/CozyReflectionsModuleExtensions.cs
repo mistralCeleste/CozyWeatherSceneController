@@ -7,7 +7,7 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeat
     /// <summary>
     /// Extension methods for the <see cref="CozyReflectionsModule"/> class.
     /// </summary>
-    public static class CozyReflectionsModuleSceneManagementExtensions
+    public static class CozyReflectionsModuleExtensions
     {
         /// <summary>
         /// Handles the scene when it loads

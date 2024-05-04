@@ -51,6 +51,8 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeat
         ///         specificModule.OnSceneLoad(scene, mode);
         ///     }
         ///   </code>
+        /// and then create a handler for that modules OnSceneLoad method, see
+        /// <see cref="CozyModuleExtensions"/> for more details.
         /// </remarks>
         /// <param name="module">
         /// The <see cref="CozyModule"/>.
@@ -91,6 +93,8 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts.CozyWeat
         ///         specificModule.OnSceneUnLoad(scene, mode);
         ///     }
         ///   </code>
+        /// and then create a handler for that modules OnSceneUnLoad method, see
+        /// <see cref="CozyModuleExtensions"/> for more details.
         /// </remarks>
         /// <param name="module">
         /// The <see cref="CozyModule"/>.
