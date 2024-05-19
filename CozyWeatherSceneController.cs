@@ -12,7 +12,7 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts
     [
         AddComponentMenu
         (
-            menuName: "One Trillium Games/Cozy Weather/Scene Controller"
+            menuName: "Cozy Weather/Scene Controller"
             , order: 0
         )
     ]
