@@ -19,6 +19,12 @@ namespace OneTrilliumGames.Integrations.Cozy_3_Stylized_Weather.Scripts
     public class CozyWeatherSceneController
         : MonoBehaviour
     {
+        protected void Awake()
+        {
+            this.AssertHasCozyWeather();
+            DontDestroyOnLoad(CozyWeather.instance);
+        }
+        
         protected void OnEnable()
         {
             this.AssertHasCozyWeather();
